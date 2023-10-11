@@ -3,6 +3,7 @@ import requests
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from teste import retornaPlayers
 
+
 CHAVE_API = "5700877420:AAEswiXVwrG89auLKlx3tRxQSYKU_qaBZLA"
 
 bot = telebot.TeleBot(CHAVE_API)
@@ -10,9 +11,9 @@ bot = telebot.TeleBot(CHAVE_API)
 # import requests
 
 def reinciarServidor():
-    url = 'https://painel.enxadahost.com/api/client/servers/0073aa55/power'
+    url = 'https://painel.enxadahost.com/api/client/servers/a85c2fca/power'
     headers = {
-        "Authorization": "Bearer uTko1eqVK088wCuP9rhL9HuDKlqfhGGMosG9HlLk8HEP7VeK",
+        "Authorization": "Bearer bykIFX4KH3bU3QvK7WoipXGgyrOgewotkYkkfsKBsuTriGF5",
         "Accept": "application/json",
         "Content-Type": "application/json"
     }
@@ -81,7 +82,7 @@ def callback_querry(call):
 @bot.message_handler(func=lambda teste: True,)
 def responder(mensagem):
     texto = """
-    Servidor: Em Busca da Cidade Automática  
+    Servidor: Em Busca da Cidade Automática 2 
     """ 
     print(mensagem)
     bot.reply_to(mensagem, texto, reply_markup = markup_inline())
