@@ -22,7 +22,7 @@ def reinciarServidor():
     response = requests.request('POST', url, data=payload, headers=headers)
     print(response.text)
 
-
+ 
 # url = 'https://painel.enxadahost.com/api/client/servers/b0d57748/command'
 # headers = {
 #     "Authorization": "Bearer uTko1eqVK088wCuP9rhL9HuDKlqfhGGMosG9HlLk8HEP7VeK",
