@@ -1,1 +1,1 @@
-web: python resquest.py
+web: python request.py
