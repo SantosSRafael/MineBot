@@ -82,7 +82,7 @@ def callback_querry(call):
 @bot.message_handler(func=lambda teste: True,)
 def responder(mensagem):
     texto = """
-    Servidor: Em Busca da Cidade Automática 2 
+    Servidor: NeoCraft dos Mine 
     """ 
     print(mensagem)
     bot.reply_to(mensagem, texto, reply_markup = markup_inline())
