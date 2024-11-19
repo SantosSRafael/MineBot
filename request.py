@@ -11,7 +11,7 @@ bot = telebot.TeleBot(CHAVE_API)
 # import requests
 
 def reinciarServidor():
-    url = 'https://painel.enxadahost.com/api/client/servers/4e1b54f5/power'
+    url = 'https://painel.enxadahost.com/api/client/servers/74c54e8c/power'
     headers = {
         "Authorization": "Bearer bykIFX4KH3bU3QvK7WoipXGgyrOgewotkYkkfsKBsuTriGF5",
         "Accept": "application/json",
