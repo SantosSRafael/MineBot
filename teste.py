@@ -2,7 +2,7 @@ import requests
 import pandas as pd
  
 def retornaPlayers():
-    url = 'https://painel.enxadahost.com/api/client/servers/4e1b54f5/players'
+    url = 'https://painel.enxadahost.com/api/client/servers/74c54e8c/players'
     headers = {
         "Authorization": "Bearer bykIFX4KH3bU3QvK7WoipXGgyrOgewotkYkkfsKBsuTriGF5",
         "Accept": "application/json",
